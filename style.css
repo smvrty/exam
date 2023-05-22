@@ -1,3 +1,8 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
 .header {
     justify-content: center;
     text-align:center;
@@ -6,6 +11,7 @@ ol li {
     list-style-position: inside;
 }
 .exam {
+	padding: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #table {
@@ -21,8 +27,10 @@ footer {
 a.foo:hover {
   text-decoration-color: black;
   color: black;
+  transition: 0.15s ease;
 }
 a.foo {
   text-decoration-color: white;
   color: white;
+  transition: 0.15s ease;
 }
